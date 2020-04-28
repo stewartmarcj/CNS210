@@ -8,7 +8,13 @@ page = requests.get('http://www.python.org/downloads')
 
 soup = bs4.BeautifulSoup(page.text, 'html.parser')
 
-soup.select('div.row:nth-child(2) > ol:nth-child(4) > li:nth-child(67) > span:nth-child(1) > a:nth-child(1)')
+download = soup.find_all("a", "release-number")
+
+samples[0]
+
+class="release-number" href="http://python.org/downloads/release/python-247
+
+data = {}
 
 print("Begin Download")
 
