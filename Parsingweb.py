@@ -12,7 +12,7 @@ download = soup.find_all("a", "release-number")
 
 samples[0]
 
-class="release-number" href="http://python.org/downloads/release/python-247
+class_="release-number" href="http://python.org/downloads/release/python-247
 
 data = {}
 
