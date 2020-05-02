@@ -8,7 +8,7 @@ page = requests.get('http://www.python.org/downloads')
 
 soup = BeautifulSoup(page.text, 'html.parser')
 
-all_versions = soup.select('.download-list-widget .list-rowcontainer li')
+all_versions = soup.select('.download-list-widget .list-row-container li')
 
 for version in all_versions:
     print(version)
